@@ -1,20 +1,20 @@
 USE BevelAndEmbossBD;
 
-// Inserir dados na tabela CLIENTE
+-- Inserir dados na tabela CLIENTE
 INSERT INTO CLIENTE (nome, email, telefone, empresa)
 VALUES 
 ('Ana Souza', 'ana@email.com', '(11) 99999-1111', 'Design Criativo'),
 ('Carlos Lima', 'carlos@email.com', '(21) 98888-2222', 'TechWeb'),
 ('Beatriz Santos', 'beatriz@email.com', '(31) 97777-3333', 'Bia Studio');
 
-// Inserir dados na tabela PREFDESIGN
+-- Inserir dados na tabela PREFDESIGN
 INSERT INTO PREFDESIGN (estilo, paleta_cores)
 VALUES 
 ('Minimalista', 'Branco, Cinza, Azul'),
 ('Criativo', 'Roxo, Rosa, Amarelo'),
 ('Corporativo', 'Azul-marinho, Branco, Cinza');
 
-// Inserir dados na tabela PROJETO
+-- Inserir dados na tabela PROJETO
 INSERT INTO PROJETO (nome_projeto, tipo, objetivo, id_cliente)
 VALUES 
 ('Site Ana Design', 'Portfólio', 'Divulgar serviços de design gráfico', 1),
